@@ -1,0 +1,208 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(img/fondo.PNG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+h2:hover {
+    cursor: pointer;
+    color: #000000; /* Color azul como ejemplo, puedes cambiarlo */
+    text-decoration: underline;
+}
+
+header {
+    background-color: rgba(68, 68, 68, 0.5); /* Cambia el color sólido por un color transparente claro */
+    padding: 1em;
+    text-align: center;
+}
+header, main, footer {
+    color: white;
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: white; /* Asegúrate de que el color del texto también sea blanco al pasar el cursor */
+}
+
+
+.objetivo-imagen {
+    width: 500px; /* Ajusta el tamaño según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Hace que el margen auto funcione */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px; /* Margen superior */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+.objetivo-imagen + .objetivo-imagen {
+    margin-top: 20px; /* Ajusta el margen superior entre imágenes */
+}
+
+
+.objetivos-especificosimagen {
+    width: 500px; /* Ajusta el tamaño según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Hace que el margen auto funcione */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px; /* Margen superior */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+.objetivos-especificosimagen + .objetivos-especificosimagen + .objetivos-especificosimagen {
+    margin-top: 20px; /* Ajusta el margen superior entre imágenes */
+}
+
+.objetivo-imagen + .objetivo-imagen {
+    margin-top: 20px; /* Ajusta el margen superior entre imágenes */
+}
+
+
+.justificacion-imagen {
+    width: 500px; /* Ajusta el tamaño según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Hace que el margen auto funcione */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px; /* Margen superior */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+.justificacion-imagen + .justificacion-imagen + .justificacion-imagen {
+    margin-top: 20px; /* Ajusta el margen superior entre imágenes */
+}
+
+.fases-imagen {
+    width: 750px; /* Ajusta el tamaño según tus necesidades */
+    height: 300px; /* Mantiene la proporción de la imagen */
+    display: block; /* Hace que el margen auto funcione */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px; /* Margen superior */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+.fases-imagen + .fases-imagen + .fases-imagen {
+    margin-top: 20px; /* Ajusta el margen superior entre imágenes */
+}
+
+.perfil-imagen {
+    width: 300px; /* Ajusta el tamaño según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Hace que el margen auto funcione */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px; /* Margen superior */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+.perfil-imagen {
+    margin-top: 20px; /* Ajusta el margen superior entre imágenes */
+}
+
+.colaboradores-imagen {
+    width: 600px; /* Ajusta el tamaño según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Hace que el margen auto funcione */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px; /* Margen superior */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+.colaboradores-imagen + .colaboradores-imagen + .colaboradores-imagen {
+    margin-top: 20px; /* Ajusta el margen superior entre imágenes */
+}
+
+.contacto-imagen {
+    width: 80px; /* Ajusta el tamaño según tus necesidades */
+ 
+
+   
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 0 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+}
+
+section {
+    background-color: rgba(68, 68, 68, 0.5); /* Cambia el color sólido por un color transparente */
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+section h2 {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section h2 button {
+    background-color: #777;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+section h2 button:hover {
+    background-color: #999;
+}
+
+section .content {
+    display: none; /* Oculta el contenido por defecto */
+}
+
+section.active .content {
+    display: block; /* Muestra el contenido cuando la sección está activa */
+}
+
+
+
+
+
